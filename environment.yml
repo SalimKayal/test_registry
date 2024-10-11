@@ -7,12 +7,10 @@ name: "base"
 # you meet the requirements for a free license. Using the conda-forge channel avoids
 # these restrictions completely.
 channels:
-  - nvidia
-  - pytorch
   - conda-forge
-dependencies: 
-  - pytorch
-  - torchvision
-  - torchaudio
-  - pytorch-cuda=12.4
+dependencies:
+  - scikit-learn
+  - matplotlib
+  - ipympl
+  - pandas
 prefix: "/opt/conda"
